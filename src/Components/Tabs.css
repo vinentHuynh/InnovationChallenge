@@ -1,0 +1,67 @@
+/* Tab Container */
+.Tabs {
+  margin: 0 auto;
+  margin-top: 1%;
+  position: relative;
+  width: fit-content;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+
+  align-content: center;
+  color: #0f1a1d;
+}
+.tab-content {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.RightComponent {
+  font-family: "Raleway", sans-serif;
+  border-left: 2px solid hsla(219, 100%, 62%, 0.5);
+  width: 100%;
+}
+
+.mb-4 {
+  font-family: "Raleway", sans-serif;
+  width: fit-content;
+  background-color: white;
+}
+.settlements {
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 1%;
+  position: relative;
+  width: fit-content;
+
+  align-content: center;
+  color: #0f1a1d;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+}
+.Card {
+  font-family: "Raleway", sans-serif;
+  background-color: aliceblue;
+  padding: 5px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1%;
+  width: fit-content;
+  position: relative;
+}
+.PDFView {
+  margin: 0 auto;
+  display: flex;
+
+  position: relative;
+  height: 400px;
+}
+.invoice {
+  display: flex;
+  margin: 0 auto;
+
+  width: fit-content;
+  position: relative;
+}

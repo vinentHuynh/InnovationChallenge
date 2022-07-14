@@ -1,0 +1,19 @@
+#textbox {
+  font-family: "Raleway", sans-serif;
+  height: 1cm auto;
+  width: 97.5%;
+  margin: 5px auto;
+  font-size: large;
+}
+.Search {
+  align-content: center;
+  width: 25%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.Month {
+  height: 1cm auto;
+  width: 35%;
+  margin: 5px auto;
+  font-size: large;
+}
