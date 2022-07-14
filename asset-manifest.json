@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/InnovationChallenge/static/css/main.f1e0b4fd.css",
+    "main.js": "/InnovationChallenge/static/js/main.02e44069.js",
+    "static/media/invoice.png": "/InnovationChallenge/static/media/invoice.1cc5e15860ffada037fd.png",
+    "static/media/Process.png": "/InnovationChallenge/static/media/Process.f38f7fd7e1e1fd6a18f0.png",
+    "static/media/graph.png": "/InnovationChallenge/static/media/graph.ac3843a6bb80d0cfbdb0.png",
+    "index.html": "/InnovationChallenge/index.html",
+    "main.f1e0b4fd.css.map": "/InnovationChallenge/static/css/main.f1e0b4fd.css.map",
+    "main.02e44069.js.map": "/InnovationChallenge/static/js/main.02e44069.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1e0b4fd.css",
+    "static/js/main.02e44069.js"
+  ]
+}
