@@ -39,8 +39,6 @@ body {
   /* border-top: 2px solid hsla(219, 100%, 62%, 0.5);
   border-bottom: 2px solid hsla(219, 100%, 62%, 0.5); */
   background-color: aliceblue;
-  height: 100%;
-  box-sizing: border-box;
 }
 .component.Value {
   background-color: #282c34;

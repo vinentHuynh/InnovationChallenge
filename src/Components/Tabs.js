@@ -11,8 +11,8 @@ import {
   MDBCardHeader,
   MDBCardBody,
 } from "mdb-react-ui-kit";
-import invoice from "./invoice.png";
-import graph from "./invoiceGraph.png";
+import invoice from "../Images/invoice.png";
+import graph from "../Images/invoiceGraph.png";
 import { KesOut, KesRes, CPRes, CPOut, VarRes, VarOut } from "./gridView";
 
 const Tabs = () => {
@@ -213,7 +213,7 @@ const Tabs = () => {
                     </MDBCard>
                   </div>
                   <div className="graph">
-                    <img src={graph} width={696} height={365} alt="graph" />
+                    <img src={graph} width={696} height={"auto"} alt="graph" />
                   </div>
                 </MDBTabsPane>
               </MDBTabsContent>

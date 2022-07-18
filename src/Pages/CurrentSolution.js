@@ -1,5 +1,5 @@
 import React from "react";
-import currentSolution from "../Components/CurrentSolution.png";
+import currentSolution from "../Images/CurrentSolution.png";
 
 export default function CurrentSolution() {
   return (

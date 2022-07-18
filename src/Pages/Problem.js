@@ -1,8 +1,8 @@
 import React from "react";
 import "./Style.css";
 import { ReactDOM } from "react";
-import process from "../Components/Process.png";
-import cycle from "../Components/Cycle.png";
+import process from "../Images/Process.png";
+import cycle from "../Images/Cycle.png";
 import { MDBRow, MDBCol } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 function Problem() {

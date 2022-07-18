@@ -12,7 +12,7 @@ import {
   MDBCol,
   MDBFooter,
 } from "mdb-react-ui-kit";
-import graph from "../Components/graph.png";
+import graph from "../Images/graph.png";
 function Benefit() {
   return (
     <div className="component Benefit">
@@ -80,8 +80,22 @@ function Benefit() {
                 Non-Monetary Benefits
               </MDBCardHeader>
               <MDBCardBody style={{ fontSize: "1.6rem" }}>
-                - Application Ownership - Efficient Communication - Workload
-                Management - Mitigates Business Risks
+                <div
+                  style={{ display: "flex", justifyContent: "space-evenly" }}
+                >
+                  <div style={{ width: "fit-content" }}>
+                    Application Ownership
+                  </div>
+                  <div style={{ width: "fit-content" }}>
+                    Efficient Communication
+                  </div>
+                  <div style={{ width: "fit-content" }}>
+                    Workload Management
+                  </div>
+                  <div style={{ width: "fit-content" }}>
+                    Mitigates Business Risks
+                  </div>
+                </div>
               </MDBCardBody>{" "}
             </MDBCard>
           </div>

@@ -86,6 +86,7 @@
 .headerTab {
   text-align: right;
 }
-.nav-tab {
-  float: right;
+.nav {
+  height: fit-content;
+  position: relative;
 }
