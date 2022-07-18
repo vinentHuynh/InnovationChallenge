@@ -22,7 +22,7 @@
   border-left: 2px solid hsla(219, 100%, 62%, 0.5);
   width: 100%;
   box-sizing: border-box;
-  overflow: scroll;
+
   height: 100%;
 }
 .tab-pane {

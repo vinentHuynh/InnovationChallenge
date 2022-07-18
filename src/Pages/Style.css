@@ -27,7 +27,8 @@ body {
 .component.Problem {
   background-color: #282c34;
   color: beige;
-  display: flex;
+  display: flex-wrap;
+  flex-wrap: wrap;
 }
 .component.current {
   background-color: #282c34;
@@ -74,30 +75,37 @@ body {
   width: 100%;
   font-size: 7rem;
 }
+.cycle {
+  display: flex;
+  height: 949px;
+  width: 859px;
+  flex-direction: column;
+  align-items: flex-start;
+}
 #problem {
   display: flex;
   font-size: 3rem;
-  justify-content: center;
-  align-items: center;
-  width: -20%;
-  margin: 2%;
+  height: fit-content;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-top: -5%;
 }
 .problem {
-  width: 100%;
-  position: absolute;
   height: fit-content;
-  font-size: 5rem;
+  font-size: 7rem;
   padding: 5rem;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .photo {
-  justify-content: center;
   display: flex;
-  align-items: center;
-  width: 100%;
-  bottom: 0;
-  margin: 1rem;
-  position: relative;
+  margin-left: 15%;
+  width: fit-content;
+  height: fit-content;
+  align-content: center;
+  justify-content: center;
 }
 
 .card-benefit {
@@ -115,6 +123,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .graph {
   justify-content: center;
   display: flex;

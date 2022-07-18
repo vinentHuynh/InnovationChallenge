@@ -47,19 +47,13 @@ const Search = () => {
         renderInput={(params) => <TextField {...params} label="Month" />}
       />
 
-      <div
-        style={{
-          textAlign: "center",
-          margin: "2rem",
-        }}
+      <button
+        type="button"
+        class="btn btn-primary"
+        style={{ margin: "1rem", fontSize: "1rem" }}
       >
-        <input
-          className="searchButton"
-          type="submit"
-          value="Search"
-          style={{ fontSize: "1.5rem" }}
-        />
-      </div>
+        Search
+      </button>
     </div>
   );
 };

@@ -16,7 +16,7 @@ import graph from "./invoiceGraph.png";
 import { KesOut, KesRes, CPRes, CPOut, VarRes, VarOut } from "./gridView";
 
 const Tabs = () => {
-  const [basicActive, setBasicActive] = useState("tab3");
+  const [basicActive, setBasicActive] = useState("tab1");
   const [fillActive, setFillActive] = useState("tab5");
 
   const handleFillClick = (value) => {
@@ -110,7 +110,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         padding: "10px",
                         margin: "10px",
                       }}
@@ -125,7 +125,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         margin: "10px",
                         padding: "10px",
                       }}
@@ -147,7 +147,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         padding: "10px",
                         margin: "10px",
                       }}
@@ -162,7 +162,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         margin: "10px",
                         padding: "10px",
                       }}
@@ -184,7 +184,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         padding: "10px",
                         margin: "10px",
                       }}
@@ -199,7 +199,7 @@ const Tabs = () => {
                     <MDBCard
                       className="border border-primary"
                       style={{
-                        width: "30rem",
+                        width: "100%",
                         margin: "10px",
                         padding: "10px",
                       }}
