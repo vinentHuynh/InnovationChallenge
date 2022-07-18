@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/InnovationChallenge/static/css/main.9b30f60f.css",
-    "main.js": "/InnovationChallenge/static/js/main.9859bb1f.js",
+    "main.css": "/InnovationChallenge/static/css/main.e6fb52b1.css",
+    "main.js": "/InnovationChallenge/static/js/main.c07d811b.js",
     "static/media/CurrentSolution.png": "/InnovationChallenge/static/media/CurrentSolution.dbfa412006ae8e6936cd.png",
+    "static/media/CostBenefit.png": "/InnovationChallenge/static/media/CostBenefit.3f5c44dd8b03ce131aed.png",
+    "static/media/Details.png": "/InnovationChallenge/static/media/Details.19f5b610f2f915f85d6e.png",
     "static/media/invoice.png": "/InnovationChallenge/static/media/invoice.1cc5e15860ffada037fd.png",
     "static/media/Process.png": "/InnovationChallenge/static/media/Process.f38f7fd7e1e1fd6a18f0.png",
+    "static/media/Chart.png": "/InnovationChallenge/static/media/Chart.17d7dd4cca1155878605.png",
     "static/media/invoiceGraph.png": "/InnovationChallenge/static/media/invoiceGraph.e3c2fd9a8af76c7fc7ef.png",
     "static/media/graph.png": "/InnovationChallenge/static/media/graph.ac3843a6bb80d0cfbdb0.png",
+    "static/media/ProjectedBenefit.png": "/InnovationChallenge/static/media/ProjectedBenefit.0c5cff28191f65b38905.png",
     "static/media/Cycle.png": "/InnovationChallenge/static/media/Cycle.ec23fbecae8ac697ee75.png",
     "index.html": "/InnovationChallenge/index.html",
-    "main.9b30f60f.css.map": "/InnovationChallenge/static/css/main.9b30f60f.css.map",
-    "main.9859bb1f.js.map": "/InnovationChallenge/static/js/main.9859bb1f.js.map"
+    "main.e6fb52b1.css.map": "/InnovationChallenge/static/css/main.e6fb52b1.css.map",
+    "main.c07d811b.js.map": "/InnovationChallenge/static/js/main.c07d811b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b30f60f.css",
-    "static/js/main.9859bb1f.js"
+    "static/css/main.e6fb52b1.css",
+    "static/js/main.c07d811b.js"
   ]
 }
