@@ -9,12 +9,15 @@ function Problem() {
       <span className="photo">
         <img src={process} width={1400} height={200} alt="process" />
       </span>
-      <span id="problem">
-        - Information overload <br />
-        - Communication bottlenecks <br />
-        - Time difference?
-        <br />
-      </span>
+      <div>
+        <h1>Major Issues</h1>
+        <span id="problem">
+          - Information overload <br />
+          - Communication bottlenecks <br />
+          - Geographical Differences
+          <br />- Manual Entry
+        </span>
+      </div>
     </div>
   );
 }

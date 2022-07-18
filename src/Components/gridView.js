@@ -10,41 +10,191 @@ import Paper from "@mui/material/Paper";
 function createData(number, type, variance, scheduler) {
   return { number, type, variance, scheduler };
 }
-
-const rows = [
-  createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
-  createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
-  createData("Eclair", 262, 16.0, 24, 6.0),
-  createData("Cupcake", 305, 3.7, 67, 4.3),
-  createData("Gingerbread", 356, 16.0, 49, 3.9),
+const kesOut = [
+  createData(5875689, "Missing Deal", "", "name"),
+  createData(5872547, "Volume Cut", "872 dths", "name"),
 ];
-
-export default function BasicTable() {
+export function KesOut() {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{}} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat&nbsp;(g)</TableCell>
-            <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-            <TableCell align="right">Protein&nbsp;(g)</TableCell>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {kesOut.map((row) => (
             <TableRow
               key={row.name}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
             >
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell align="right">{row.number}</TableCell>
-              <TableCell align="right">{row.type}</TableCell>
-              <TableCell align="right">{row.variance}</TableCell>
-              <TableCell align="right">{row.scheduler}</TableCell>
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+const kesRes = [createData(5875689, "Volume cut", "545 dths", "name")];
+export function KesRes() {
+  return (
+    <TableContainer component={Paper}>
+      <Table sx={{}} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {kesRes.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+            >
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+const cpRes = [createData(5875321, "Volume cut", "5,813 dths", "name")];
+export function CPRes() {
+  return (
+    <TableContainer component={Paper}>
+      <Table sx={{}} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {cpRes.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+            >
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+const cpOut = [createData(5878123, "Volume cut", "215 dths", "name")];
+export function CPOut() {
+  return (
+    <TableContainer component={Paper}>
+      <Table sx={{}} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {cpOut.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+            >
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+const varRes = [
+  createData(5875689, "Volume cut", "545 dths", "name"),
+  createData(5875536, "Price Variance", "", "name"),
+  createData(5875321, "Volume cut", " 5,813 dths", "name"),
+];
+export function VarRes() {
+  return (
+    <TableContainer component={Paper}>
+      <Table sx={{}} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {varRes.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+            >
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+
+const varOut = [
+  createData(5875689, "Volume cut", "545 dths", "name"),
+  createData(5875321, "Volume cut", "5,813 dths", "name"),
+  createData(5875536, "Price Variance ", "(+$0.02)", "name"),
+];
+export function VarOut() {
+  return (
+    <TableContainer component={Paper}>
+      <Table sx={{}} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Deal Number</TableCell>
+            <TableCell>Type</TableCell>
+            <TableCell>Variance</TableCell>
+            <TableCell>Contact</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {varOut.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+            >
+              <TableCell>{row.number}</TableCell>
+              <TableCell>{row.type}</TableCell>
+              <TableCell>{row.variance}</TableCell>
+              <TableCell>{row.scheduler}</TableCell>
             </TableRow>
           ))}
         </TableBody>

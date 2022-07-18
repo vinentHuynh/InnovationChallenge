@@ -5,7 +5,7 @@ function Intro() {
     <div className="component Intro">
       <div className="title">
         Koch Energy Services
-        <br /> Variance Platform
+        <br /> Variance Viewer
       </div>
     </div>
   );

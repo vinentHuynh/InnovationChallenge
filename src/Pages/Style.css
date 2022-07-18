@@ -29,14 +29,24 @@ body {
   color: beige;
   display: flex;
 }
+.component.current {
+  background-color: #282c34;
+  color: beige;
+  display: flex;
+}
 .component.Solution {
   /* border-top: 2px solid hsla(219, 100%, 62%, 0.5);
   border-bottom: 2px solid hsla(219, 100%, 62%, 0.5); */
   background-color: aliceblue;
   height: 100%;
+  box-sizing: border-box;
 }
 .component.Value {
   background-color: #282c34;
+}
+#currentSolution {
+  justify-content: center;
+  align-content: center;
 }
 .mb-3 {
   font-family: "Raleway", sans-serif;
@@ -70,7 +80,7 @@ body {
   justify-content: center;
   align-items: center;
   width: -20%;
-  margin: 5%;
+  margin: 2%;
 }
 .problem {
   width: 100%;

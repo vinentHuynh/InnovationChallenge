@@ -5,6 +5,7 @@ import Problem from "./Problem";
 import Solution from "./Solution";
 import Value from "./Value";
 import Benefit from "./ProjectedBenefit";
+import CurrentSolution from "./CurrentSolution";
 import "../index.css";
 export default class FullPage extends React.Component {
   constructor(props) {
@@ -27,6 +28,7 @@ export default class FullPage extends React.Component {
         >
           <Intro />
           <Problem />
+          <CurrentSolution />
           <Solution />
           <Value />
           <Benefit />

@@ -13,7 +13,7 @@ import {
 } from "mdb-react-ui-kit";
 import invoice from "./invoice.png";
 import graph from "./invoiceGraph.png";
-import BasicTable from "./gridView";
+import { KesOut, KesRes, CPRes, CPOut, VarRes, VarOut } from "./gridView";
 
 const Tabs = () => {
   const [basicActive, setBasicActive] = useState("tab3");
@@ -119,9 +119,7 @@ const Tabs = () => {
                         Outstanding
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5872547 Volume cut 872 dths
-                        <br />
-                        5879663 Missing deal
+                        <KesOut />
                       </MDBCardBody>
                     </MDBCard>
                     <MDBCard
@@ -136,7 +134,7 @@ const Tabs = () => {
                         Resolved
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5875689 Volume cut 545 dths
+                        <KesRes />
                       </MDBCardBody>
                     </MDBCard>
                   </div>
@@ -158,7 +156,7 @@ const Tabs = () => {
                         Outstanding
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5878123 CP Volume cut 215 dths
+                        <CPOut />
                       </MDBCardBody>
                     </MDBCard>
                     <MDBCard
@@ -173,7 +171,7 @@ const Tabs = () => {
                         Resolved
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5875321 CP Volume cut 5,813 dths
+                        <CPRes />
                       </MDBCardBody>
                     </MDBCard>
                   </div>
@@ -195,14 +193,7 @@ const Tabs = () => {
                         Outstanding
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5878123 Volume cut 215 dths
-                        <br />
-                        5872547 Volume cut 872 dths
-                        <br />
-                        5873199 Price Variance
-                        <br />
-                        5879663 Missing deal
-                        <br />
+                        <VarOut />
                       </MDBCardBody>
                     </MDBCard>
                     <MDBCard
@@ -217,10 +208,7 @@ const Tabs = () => {
                         Resolved
                       </MDBCardHeader>
                       <MDBCardBody style={{ fontSize: "1.1rem" }}>
-                        5875689 Volume cut 545 dths <br /> 5875536 Price
-                        Variance (+$0.02)
-                        <br />
-                        5875321 Volume cut 5,813 dths
+                        <VarRes />
                       </MDBCardBody>
                     </MDBCard>
                   </div>
