@@ -6,20 +6,25 @@
   width: fit-content;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
-
+  height: fit-content;
   align-content: center;
   color: #0f1a1d;
 }
 .tab-content {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+  height: 100%;
+  max-height: 100%;
 }
 .RightComponent {
   font-family: "Raleway", sans-serif;
   border-left: 2px solid hsla(219, 100%, 62%, 0.5);
   width: 100%;
+  height: 100%;
 }
-
+.tab-pane {
+  height: 100%;
+}
 .mb-4 {
   font-family: "Raleway", sans-serif;
   width: fit-content;
@@ -51,6 +56,11 @@
   width: fit-content;
   position: relative;
 }
+.mainTab {
+  width: 100%;
+
+  height: 100%;
+}
 .PDFView {
   margin: 0 auto;
   display: flex;
@@ -64,4 +74,15 @@
 
   width: fit-content;
   position: relative;
+}
+.solutionPage {
+  height: 100%;
+  display: flex;
+}
+
+.headerTab {
+  text-align: right;
+}
+.nav-tab {
+  float: right;
 }

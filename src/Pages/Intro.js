@@ -3,7 +3,10 @@ import "./Style.css";
 function Intro() {
   return (
     <div className="component Intro">
-      <div className="title">TEAM 6</div>
+      <div className="title">
+        Koch Energy Services
+        <br /> Variance Platform
+      </div>
     </div>
   );
 }

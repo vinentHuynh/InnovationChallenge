@@ -27,11 +27,13 @@ body {
 .component.Problem {
   background-color: #282c34;
   color: beige;
+  display: flex;
 }
 .component.Solution {
   /* border-top: 2px solid hsla(219, 100%, 62%, 0.5);
   border-bottom: 2px solid hsla(219, 100%, 62%, 0.5); */
   background-color: aliceblue;
+  height: 100%;
 }
 .component.Value {
   background-color: #282c34;
@@ -55,18 +57,28 @@ body {
   font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: right;
-  margin-right: 20rem;
+  text-align: right;
+  margin-right: 5rem;
   margin-top: 3rem;
   align-items: center;
   width: 100%;
   font-size: 7rem;
 }
-
+#problem {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  width: -20%;
+  margin: 5%;
+}
 .problem {
   width: 100%;
   position: absolute;
+  height: fit-content;
   font-size: 5rem;
   padding: 5rem;
+  display: flex;
 }
 .photo {
   justify-content: center;
@@ -74,6 +86,7 @@ body {
   align-items: center;
   width: 100%;
   bottom: 0;
+  margin: 1rem;
   position: relative;
 }
 
@@ -81,9 +94,9 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   display: flex;
+  height: 100%;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
 }
 .non-monetary {
   font-family: "Raleway", sans-serif;
@@ -91,7 +104,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
 }
 .graph {
   justify-content: center;
