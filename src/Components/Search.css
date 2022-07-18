@@ -1,11 +1,12 @@
 #textbox {
-  font-family: "Raleway", sans-serif;
+  font-family: "Albert Sans", sans-serif;
   height: 1cm auto;
   width: 100%;
   margin: 5px auto;
   font-size: large;
 }
 .Search {
+  font-family: "Albert Sans", sans-serif;
   align-content: center;
   width: 27%;
   padding: 10px;
@@ -13,6 +14,7 @@
   height: 100%;
 }
 .Month {
+  font-family: "Albert Sans", sans-serif;
   height: 1cm auto;
   width: 35%;
   margin: 5px auto;

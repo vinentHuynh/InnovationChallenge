@@ -11,8 +11,8 @@ function Problem() {
       <div style={{ width: "50%" }}>
         <span className="problem">Problem</span>
         <span id="problem">
-          - Information overload <br />
-          - Communication bottlenecks <br />
+          - Information Overload <br />
+          - Communication Bottlenecks <br />
           - Geographical Differences
           <br />- Manual Entry
         </span>
