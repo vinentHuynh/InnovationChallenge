@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InnovationChallenge/static/css/main.e6fb52b1.css",
-    "main.js": "/InnovationChallenge/static/js/main.c07d811b.js",
+    "main.js": "/InnovationChallenge/static/js/main.81cfaeb6.js",
     "static/media/CurrentSolution.png": "/InnovationChallenge/static/media/CurrentSolution.dbfa412006ae8e6936cd.png",
     "static/media/CostBenefit.png": "/InnovationChallenge/static/media/CostBenefit.3f5c44dd8b03ce131aed.png",
     "static/media/Details.png": "/InnovationChallenge/static/media/Details.19f5b610f2f915f85d6e.png",
@@ -14,10 +14,10 @@
     "static/media/Cycle.png": "/InnovationChallenge/static/media/Cycle.ec23fbecae8ac697ee75.png",
     "index.html": "/InnovationChallenge/index.html",
     "main.e6fb52b1.css.map": "/InnovationChallenge/static/css/main.e6fb52b1.css.map",
-    "main.c07d811b.js.map": "/InnovationChallenge/static/js/main.c07d811b.js.map"
+    "main.81cfaeb6.js.map": "/InnovationChallenge/static/js/main.81cfaeb6.js.map"
   },
   "entrypoints": [
     "static/css/main.e6fb52b1.css",
-    "static/js/main.c07d811b.js"
+    "static/js/main.81cfaeb6.js"
   ]
 }
