@@ -59,7 +59,7 @@ export const Header = () => {
                 onClick={() => handleBasicClick("tab2")}
                 active={basicActive === "tab2"}
               >
-                <h6>Variance Tracking</h6>
+                <h6>Variance View</h6>
               </MDBTabsLink>
             </MDBTabsItem>
           </MDBTabs>
